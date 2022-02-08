@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "js-engine step1",
+            "program": "${workspaceFolder}/js-engine/step1.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "js-engine step2",
+            "program": "${workspaceFolder}/js-engine/step2.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "js-engine step3",
+            "program": "${workspaceFolder}/js-engine/step3.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        }
+    ]
+}
